@@ -29,9 +29,21 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+    - They are used to check was kind of data is being passed around. They are mainly there to prevent future bugs.
+
 - [ ] Describe a life-cycle event in React?
+
+    - It starts with Mounting or birth, then updating or growth, and finally unmounting or death.
+
 - [ ] Explain the details of a Higher Order Component?
+
+    - An HOC is simply a component that takes another component as a parameter. Similarly to how a higher order function takes another function as a parameter.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+    You can style react using className="" and normal CSS. The benefit of that is you can see all of the styles for everything is one place, generally. It is also the easiest because there is nothing to install and run. A second way you could style react is with styles someone else created like in bootstrap/reactstrap. There is not a ton of customization, but they are really good to have if you want to have quick styling to get a product out quickly. A third way is using styled-components, which allows you to essentially render css inside a specific component. It is better for organization and you get the added benefit that you would normally get with some of the features of a preprocessor.
+
 
 ## Project Setup
 
