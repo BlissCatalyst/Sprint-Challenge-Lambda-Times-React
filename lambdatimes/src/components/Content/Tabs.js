@@ -21,7 +21,7 @@ const Tabs = props => {
 };
 
 // Make sure to use PropTypes to validate your types!
-Tab.propTypes = {
+Tabs.propTypes = {
   selectTabHandler: PropTypes.string,
   selectTabHandler: PropTypes.string,
   tab: PropTypes.object
